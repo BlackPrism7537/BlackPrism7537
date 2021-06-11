@@ -34,15 +34,6 @@ const Footer = () => {
 				<CompanyContainer>
 					<Slogan>Red. Green. Refactor.</Slogan>
 				</CompanyContainer>
-				<SocialIcons href="https://github.com/BlackPrism7537">
-					<AiFillGithub size="3rem" />
-				</SocialIcons>
-				<SocialIcons href="https://twitter.com/Z_Barcoe">
-					<AiFillTwitterCircle size="3rem" />
-				</SocialIcons>
-				<SocialIcons href="https://www.instagram.com/z.barcoe/">
-					<AiFillInstagram size="3rem" />
-				</SocialIcons>
 			</SocialIconsContainer>
 		</FooterWrapper>
 	);
