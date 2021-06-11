@@ -1,10 +1,10 @@
 export const projects = [
 	{
 		title: "Portfolio Site",
-		description: "A Portfolio website ",
+		description: "A Portfolio website to show my work and abilities",
 		image: "/images/Portfolio.PNG",
 		tags: ["Next.js", "React", "Styled Components"],
-		source: "https://github.com/BlackPrism7537/project_e_commerce",
+		source: "https://github.com/BlackPrism7537/portfolio_website",
 		visit: "",
 		id: 1,
 	},
@@ -16,7 +16,7 @@ export const projects = [
 		tags: ["React", "JavaScript"],
 		source: "https://github.com/BlackPrism7537/project_e_commerce",
 		visit: "",
-		id: 1,
+		id: 2,
 	},
 	{
 		title: "Hex Pattern Searcher",
@@ -26,7 +26,7 @@ export const projects = [
 		tags: ["Java", "JFrame"],
 		source: "https://github.com/BlackPrism7537/project_e_commerce",
 		visit: "",
-		id: 1,
+		id: 3,
 	},
 ];
 
