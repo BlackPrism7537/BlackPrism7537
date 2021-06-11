@@ -65,7 +65,20 @@ const Timeline = () => {
 		<Section id="about">
 			<SectionDivider />
 			<SectionTitle>About Me</SectionTitle>
-			<SectionText>This is all about me.</SectionText>
+			<SectionText>
+				I'm Zach a Computer Science Undergrad Currently Studying @ Leeds Beckett
+				University for Bachelors Degree, hoping to work in Web Developement or
+				Networking Industry.
+				<br />
+				<br />
+				I've Recently Been Diving Deeper Into Web Developement In Tandum With
+				The Team Project Module At University Where We Have To Develope A Full
+				Stack Web Application. Exploring More About UI And UX Design.
+				<br />
+				<br />
+				Last Year I Started Teaching Myself Cisco Networking For My CCNA After
+				Finishing My University's Intro To Networking Module.
+			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
 					{TimeLineData.map((item, index) => (
