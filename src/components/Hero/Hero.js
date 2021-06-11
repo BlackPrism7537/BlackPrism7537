@@ -16,10 +16,17 @@ const Hero = (props) => (
 				My Personal Portofilo
 			</SectionTitle>
 			<SectionText>
-				A Complete and Expansive look at what I can do for you
+				A Computer Science Student?
+				<br />
+				An Amateur Web Developer?
+				<br />
+				A Networking Enthusiast?
+				<br />A Fast Learner?
+				<br />
+				That's Me!
 			</SectionText>
 			<Button onClick={() => (window.location = "mailto:z.barcoe@gmail.com")}>
-				Learn More
+				Contact Me
 			</Button>
 		</LeftSection>
 	</Section>
