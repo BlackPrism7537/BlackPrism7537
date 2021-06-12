@@ -3,7 +3,6 @@ import React from "react";
 import {
 	AiFillGithub,
 	AiFillInstagram,
-	AiFillLinkedin,
 	AiFillTwitterCircle,
 } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";

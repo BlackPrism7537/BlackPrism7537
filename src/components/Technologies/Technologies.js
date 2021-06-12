@@ -1,12 +1,5 @@
 import React from "react";
-import {
-	DiFirebase,
-	DiMysql,
-	DiNodejsSmall,
-	DiPython,
-	DiReact,
-	DiZend,
-} from "react-icons/di";
+import { DiNodejsSmall, DiPython, DiReact } from "react-icons/di";
 import {
 	Section,
 	SectionDivider,

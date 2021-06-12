@@ -1,12 +1,5 @@
 import React from "react";
-import {
-	AiFillGithub,
-	AiFillInstagram,
-	AiFillLinkedin,
-	AiFillTwitterCircle,
-} from "react-icons/ai";
 
-import { SocialIcons } from "../Header/HeaderStyles";
 import {
 	CompanyContainer,
 	FooterWrapper,
@@ -15,7 +8,6 @@ import {
 	LinkList,
 	LinkTitle,
 	Slogan,
-	SocialContainer,
 	SocialIconsContainer,
 } from "./FooterStyles";
 
