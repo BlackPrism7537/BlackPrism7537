@@ -19,8 +19,6 @@ import {
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
-
 const Timeline = () => {
 	const [activeItem, setActiveItem] = useState(0);
 	const carouselRef = useRef();
@@ -84,7 +82,7 @@ const Timeline = () => {
 					{TimeLineData.map((item, index) => (
 						<CarouselMobileScrollNode
 							key={index}
-							final={index === TOTAL_CAROUSEL_COUNT - 1}
+							final={index === TimeLineData.length - 1}
 						>
 							<CarouselItem
 								index={index}
