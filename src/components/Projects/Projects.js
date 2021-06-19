@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
 	BlogCard,
@@ -12,16 +12,12 @@ import {
 	TitleContent,
 	UtilityList,
 	Img,
-} from "./ProjectsStyles";
-import {
-	Section,
-	SectionDivider,
-	SectionTitle,
-} from "../../styles/GlobalComponents";
-import { projects } from "../../constants/constants";
+} from './ProjectsStyles';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { projects } from '../../constants/constants';
 
 const Projects = () => (
-	<Section nopadding id="projects">
+	<Section nopadding id='projects'>
 		<SectionDivider />
 		<SectionTitle>Projects</SectionTitle>
 		<GridContainer>
@@ -33,7 +29,7 @@ const Projects = () => (
 							<HeaderThree>{p.title}</HeaderThree>
 							<Hr />
 						</TitleContent>
-						<CardInfo className="card-info">{p.description}</CardInfo>
+						<CardInfo className='card-info'>{p.description}</CardInfo>
 						<div>
 							<br />
 							<TitleContent>Stack</TitleContent>
@@ -44,10 +40,8 @@ const Projects = () => (
 							</TagList>
 						</div>
 						<UtilityList>
-							{p.visit && <ExternalLinks href={p.visit}>Code</ExternalLinks>}
-							{p.source && (
-								<ExternalLinks href={p.source}>Source</ExternalLinks>
-							)}
+							{p.visit && <ExternalLinks href={p.visit}>Visit</ExternalLinks>}
+							{p.source && <ExternalLinks href={p.source}>Source</ExternalLinks>}
 						</UtilityList>
 					</BlogCard>
 				);
