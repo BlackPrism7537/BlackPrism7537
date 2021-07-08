@@ -77,7 +77,7 @@ const Timeline = () => {
 				<br/>
 				Last Year I Started Teaching Myself Cisco Networking After Finishing My 
 				University's Intro To Networking Module. I'm Still Very Early In My 
-				Journey But In The Futurwe I Hope Tioo Be Able To Complete My CCNA.
+				Journey But In The Future I Hope To Be Able To Complete My CCNA.
 				<br/>
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
