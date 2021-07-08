@@ -64,18 +64,21 @@ const Timeline = () => {
 			<SectionDivider />
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-				I'm Zach a Computer Science Undergrad Currently Studying @ Leeds Beckett
-				University for Bachelors Degree, hoping to work in Web Developement or
-				Networking Industry.
-				<br />
-				<br />
-				I've Recently Been Diving Deeper Into Web Developement In Tandum With
-				The Team Project Module At University Where We Have To Develope A Full
-				Stack Web Application. Exploring More About UI And UX Design.
-				<br />
-				<br />
-				Last Year I Started Teaching Myself Cisco Networking For My CCNA After
-				Finishing My University's Intro To Networking Module.
+				I'm Zach, A Computer Science Undergrad Currently Studying @ Leeds Beckett 
+				University For Bachelors Degree, Hoping To Work In The Web Development 
+				Or Networking Industry.
+				<br/>
+				<br/>
+				I've Recently Been Diving Deeper Into Web Development In Tandem With The 
+				Team Project Module At University Where We Have To Develop A Full Stack 
+				Web Application. Which Lead Me To Futher Explore More Into Different 
+				Aspects Of WEb Developement Such As UI And UX Design.
+				<br/>
+				<br/>
+				Last Year I Started Teaching Myself Cisco Networking After Finishing My 
+				University's Intro To Networking Module. I'm Still Very Early In My 
+				Journey But In The Futurwe I Hope Tioo Be Able To Complete My CCNA.
+				<br/>
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
