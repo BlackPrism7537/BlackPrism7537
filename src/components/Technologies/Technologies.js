@@ -29,7 +29,7 @@ const Technologies = () => (
 				<ListContainer>
 					<ListTitle>Languages</ListTitle>
 					<ListParagraph>
-						JavaScript
+						JavaScript/TypeScript
 						<br />
 						Python
 						<br />
