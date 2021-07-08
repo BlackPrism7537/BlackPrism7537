@@ -11,7 +11,7 @@ export const projects = [
 	{
 		title: 'Blockchain in NodeJS',
 		description: 'Basic Blockchain Implementation',
-		image: '',
+		image: '/images/blockchain.jpeg',
 		tags: ['NodeJS', 'TypeScript'],
 		source: 'https://github.com/BlackPrism7537/blockchain',
 		visit: '',
@@ -20,10 +20,10 @@ export const projects = [
 	{
 		title: 'Video Chat with WebRTC',
 		description: 'Video Chat App built with WebRTC',
-		image: '',
+		image: '/images/vchat.PNG',
 		tags: ['React', 'NodeJS', 'Socket.io', 'Express'],
 		source: 'https://github.com/BlackPrism7537/video-app',
-		visit: '',
+		visit: 'https://vchat-web-app.netlify.app/',
 		id: 4,
 	},
 	{
