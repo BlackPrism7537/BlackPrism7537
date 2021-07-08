@@ -22,7 +22,7 @@ export const projects = [
 		description: 'Video Chat App built with WebRTC',
 		image: '',
 		tags: ['React', 'NodeJS', 'Socket.io', 'Express'],
-		source: 'https://github.com/BlackPrism7537/blockchain',
+		source: 'https://github.com/BlackPrism7537/video-app',
 		visit: '',
 		id: 4,
 	},
