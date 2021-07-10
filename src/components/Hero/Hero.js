@@ -28,7 +28,7 @@ const Hero = () => (
 			<Button onClick={() => (window.location = "mailto:z.barcoe@gmail.com")}>
 				Contact Me
 			</Button>
-			<Button onClick={() => (window.location = "/files/ZacheryBarcoeCV.pdf")}>
+			<Button onClick={() => (window.location = "/ZacheryBarcoeCV.pdf")}>
 				Download CV
 			</Button>
 		</LeftSection>
