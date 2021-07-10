@@ -25,12 +25,14 @@ const Hero = () => (
 				<br />
 				That's Me!
 			</SectionText>
-			<Button onClick={() => (window.location = "mailto:z.barcoe@gmail.com")}>
-				Contact Me
-			</Button>
-			<Button onClick={() => (window.location = "/ZacheryBarcoeCV.pdf")}>
-				Download CV
-			</Button>
+			<div>
+				<Button onClick={() => (window.location = "mailto:z.barcoe@gmail.com")}>
+					Contact Me
+				</Button>
+				<Button onClick={() => (window.location = "/ZacheryBarcoeCV.pdf")}>
+					Download CV
+				</Button>
+			</div>
 		</LeftSection>
 	</Section>
 );
